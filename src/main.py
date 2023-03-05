@@ -4,13 +4,13 @@
 # ⇧ を2回押す を押すと、クラス/ファイル/ツールウィンドウ/アクション/設定を検索します。
 
 
-def print_hi(name):
+def main():
     # スクリプトをデバッグするには以下のコード行でブレークポイントを使用してください。
-    print(f'Hi, {name}')  # ⌘F8を押すとブレークポイントを切り替えます。
+    print(f'Hi')  # ⌘F8を押すとブレークポイントを切り替えます。
 
 
 # ガター内の緑色のボタンを押すとスクリプトを実行します。
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
 
 # PyCharm のヘルプは https://www.jetbrains.com/help/pycharm/ を参照してください
